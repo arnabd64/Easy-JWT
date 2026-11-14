@@ -1,0 +1,16 @@
+[project]
+name = "easy-jwt"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+add-bounds = "major"
+
+[dependency-groups]
+dev = [
+    "hypothesis>=6.170.15,<7.0.0",
+    "pytest>=9.2.0,<10.0.0",
+    "pytest-cov>=7.1.0,<8.0.0",
+    "ruff>=0.17.5,<0.18.0",
+]
